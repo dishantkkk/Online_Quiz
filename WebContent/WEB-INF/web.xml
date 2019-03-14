@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>p1.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/next</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin</servlet-name>
+    <servlet-class>p1.Adminlogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin</servlet-name>
+    <url-pattern>/admin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>back</servlet-name>
+    <servlet-class>p1.back</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>back</servlet-name>
+    <url-pattern>/back</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>next</servlet-name>
+    <servlet-class>p1.next</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>next</servlet-name>
+    <url-pattern>/next1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>insert</servlet-name>
+    <servlet-class>p1.insert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>insert</servlet-name>
+    <url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+</web-app>
